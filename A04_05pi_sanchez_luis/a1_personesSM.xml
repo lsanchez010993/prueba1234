@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona id ="123456" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="a1_personesSM.xsd">
+    <NIF>12999678A</NIF>
+    <nom>Luis</nom>
+    <cognom1>Sanchez</cognom1>
+    <cognom2>Martin</cognom2>
+</persona>

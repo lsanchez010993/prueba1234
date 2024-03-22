@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NIF" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element ref="cognoms" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element ref="telefons" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="genero" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="cognoms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cognom" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="telefons">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="telefon" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

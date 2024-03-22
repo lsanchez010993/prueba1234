@@ -1,1 +1,2 @@
-aixo es comentari molt bonic
+#aixo es comentari molt bonic
+#altra comentari

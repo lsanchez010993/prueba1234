@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<classe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="a5_classeSM.xsd">
+ <tutor NIF="123456789A">
+        <nom>Juan</nom>
+        <cognoms>
+            <cognom>Gomez</cognom>
+            <cognom>Perez</cognom>
+        </cognoms>
+        <telefons>
+            <telefon>123456789</telefon>
+            <telefon>987654321</telefon>
+        </telefons>
+        <correus>
+            <correu>juan@juan.com</correu>
+            <correu>juan@gmail.com</correu>
+        </correus>
+    </tutor>
+    <alumnes>
+        <alumne NIF="987654321B">
+            <nom>Maria</nom>
+            <cognoms>
+                <cognom>Lopez</cognom>
+                <cognom>Martinez</cognom>
+            </cognoms>
+            <telefons>
+                <telefon>111222333</telefon>
+            </telefons>
+            <correus>
+                <correu>maria@example.com</correu>
+                 <correu>maria@maria.com</correu>
+            </correus>
+        </alumne>
+        <alumne NIF="123456678K">
+            <nom>Paca</nom>
+            <cognoms>
+                <cognom>paquita</cognom>
+                <cognom>Martinez</cognom>
+            </cognoms>
+            <telefons>
+                <telefon>111222333</telefon>
+            </telefons>
+            <correus>
+                <correu>paca@example.com</correu>
+            </correus>
+        </alumne>
+        <alumne NIF="6456464354P">
+            <nom>Maria</nom>
+            <cognoms>
+                <cognom>Lopez</cognom>
+                <cognom>Martinez</cognom>
+            </cognoms>
+            <telefons>
+                <telefon>111222333</telefon>
+            </telefons>
+            <correus>
+                <correu>maria@example.com</correu>
+            </correus>
+        </alumne>
+        <alumne NIF="123456789P">
+            <nom>jose</nom>
+            <cognoms>
+                <cognom>Lopez</cognom>
+                <cognom>Martinez</cognom>
+            </cognoms>
+            <telefons>
+                <telefon>111222333</telefon>
+            </telefons>
+            <correus>
+                <correu>jose@example.com</correu>
+            </correus>
+        </alumne>
+    </alumnes>
+</classe>

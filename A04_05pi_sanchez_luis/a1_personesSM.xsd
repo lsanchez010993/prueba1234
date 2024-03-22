@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NIF" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="cognom1" type="xs:string"/>
+        <xs:element name="cognom2" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

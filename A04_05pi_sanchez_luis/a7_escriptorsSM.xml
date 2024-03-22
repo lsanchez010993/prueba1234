@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escriptors>
+    <escriptor nom="Carlos Ruiz Zafón">
+        <cognoms>
+            <cognom>Ruiz</cognom>
+            <cognom>Zafón</cognom>
+        </cognoms>
+        <llengues>
+            <llengua>Español</llengua>
+            <llengua>Català</llengua>
+        </llengues>
+        <premis>
+            <premi>Premio Planeta</premi>
+            <premi>Premio Fernando Lara</premi>
+        </premis>
+        <obres>
+            <llibre>
+                <titol>La Sombra del Viento</titol>
+                <dataPublicacio>2001-04-01</dataPublicacio>
+            </llibre>
+            <llibre>
+                <titol>El Juego del Ángel</titol>
+                <dataPublicacio>2008-04-17</dataPublicacio>
+            </llibre>
+        </obres>
+    </escriptor>
+
+    <escriptor nom="Isabel Allende">
+        <cognoms>
+            <cognom>Allende</cognom>
+        </cognoms>
+        <llengues>
+            <llengua>Español</llengua>
+        </llengues>
+        <obres>
+            <llibre>
+                <titol>La Ciudad de las Bestias</titol>
+                <dataPublicacio>2002-02-06</dataPublicacio>
+            </llibre>
+            <llibre>
+                <titol>Inés del Alma Mía</titol>
+                <dataPublicacio>2006-03-01</dataPublicacio>
+            </llibre>
+        </obres>
+    </escriptor>
+
+    <escriptor nom="Javier Sierra">
+        <cognoms>
+            <cognom>Sierra</cognom>
+        </cognoms>
+        <llengues>
+            <llengua>Español</llengua>
+        </llengues>
+        <premis>
+            <premi>Premio Planeta</premi>
+        </premis>
+        <obres>
+            <llibre>
+                <titol>La Cena Secreta</titol>
+                <dataPublicacio>2004-03-17</dataPublicacio>
+            </llibre>
+            <llibre>
+                <titol>El Ángel Perdido</titol>
+                <dataPublicacio>2011-09-22</dataPublicacio>
+            </llibre>
+        </obres>
+    </escriptor>
+
+    <escriptor nom="Arturo Pérez-Reverte">
+        <cognoms>
+            <cognom>Pérez-Reverte</cognom>
+        </cognoms>
+        <llengues>
+            <llengua>Español</llengua>
+        </llengues>
+        <premis>
+            <premi>Premio Alfaguara de Novela</premi>
+        </premis>
+        <obres>
+            <llibre>
+                <titol>La Reina del Sur</titol>
+                <dataPublicacio>2002-11-01</dataPublicacio>
+            </llibre>
+        </obres>
+    </escriptor>
+
+    <escriptor nom="Laura Gallego García">
+        <cognoms>
+            <cognom>Gallego García</cognom>
+        </cognoms>
+        <llengues>
+            <llengua>Español</llengua>
+        </llengues>
+        <obres>
+            <llibre>
+                <titol>Memorias de Idhún: La Resistencia</titol>
+                <dataPublicacio>2004-11-01</dataPublicacio>
+            </llibre>
+        </obres>
+    </escriptor>
+</escriptors>

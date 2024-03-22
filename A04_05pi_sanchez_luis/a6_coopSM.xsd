@@ -1,0 +1,42 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="cooperativa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="soci" type="sociType" minOccurs="6" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="sociType">
+        <xs:sequence>
+            <xs:choice>
+                <xs:sequence>
+                    <xs:element name="numero" type="xs:integer" />
+                    <xs:element name="dataAlta" type="xs:date" />
+                </xs:sequence>
+                <xs:sequence>
+                    <xs:element name="clauAlfanumerica" type="xs:string" />
+                </xs:sequence>
+            </xs:choice>
+            <xs:element name="nom" type="xs:string" />
+            <xs:element name="cognoms">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cognom" type="xs:string" minOccurs="1" maxOccurs="2" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="dataNaixement" type="xs:date" minOccurs="0" />
+            <xs:element name="edat" type="xs:integer" minOccurs="0" />
+            <xs:element name="telefons">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="telefon" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

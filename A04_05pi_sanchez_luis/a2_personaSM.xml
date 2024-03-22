@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="a2_personaSM.xsd"
+         genero="masculino">
+    <NIF>12345678A</NIF>
+    <nom>Eddard</nom>
+    <cognoms>
+        <cognom>Stark</cognom>
+        <cognom></cognom>
+    </cognoms>
+    <telefons>
+        <telefon>123456789</telefon>
+        <telefon>987654321</telefon>
+    </telefons>
+</persona>

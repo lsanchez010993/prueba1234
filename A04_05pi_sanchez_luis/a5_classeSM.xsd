@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="classe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tutor" type="personaType"/>
+        <xs:element name="alumnes" type="alumnesType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="personaType">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"/>
+      <xs:element name="cognoms" minOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="cognom" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="telefons" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="telefon" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="correus" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="correu" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="NIF" type="xs:string" use="required"/>
+    <xs:attribute name="genero" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="alumnesType">
+    <xs:sequence>
+      <xs:element name="alumne" type="personaType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="a3_personaSM.xsd"
+         genero="masculino">
+    <NIF>12345678A</NIF>
+    <nom>Jon</nom>
+    <cognoms>
+        <cognom>Snow</cognom>
+        <cognom></cognom>
+    </cognoms>
+    <telefons>
+        <telefon>123456789</telefon>
+        <telefon>987654321</telefon>
+    </telefons>
+    <correus>
+        <correu>jon.snow@gmail.com</correu>
+        <correu>lordcommandante@gmail.com</correu>
+    </correus>
+</persona>
